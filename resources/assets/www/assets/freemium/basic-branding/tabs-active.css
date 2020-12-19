@@ -1,0 +1,18 @@
+ion-app.app-root core-ion-tabs .tab-badge.badge {
+    background-color: var(--tabs-active-color) !important;
+}
+
+.tabs-md[tabsHighlight=true] .tab-highlight {
+    background-color: var(--tabs-active-color) !important;
+}
+
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon,
+.tabs-md ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] .tab-button-icon,
+ion-app.app-root .core-tabs-bar .tabs-md .tab-slide[aria-selected=true] .tab-button-icon,
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon,
+.tabs-ios ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] .tab-button-icon,
+ion-app.app-root .core-tabs-bar .tabs-ios .tab-slide[aria-selected=true] .tab-button-icon,
+.tabs-ios .tab-button:hover:not(.disable-hover),
+.tabs-ios .tab-button[aria-selected=true] {
+    color: var(--tabs-active-color) !important;
+}

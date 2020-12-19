@@ -1,0 +1,4 @@
+core-progress-bar progress .progress-bar-fallback span,
+core-progress-bar progress[value]::-webkit-progress-value {
+    background-color: var(--progressbar-color) !important;
+}
