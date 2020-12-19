@@ -1,7 +1,7 @@
 {
     "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
-    "desktopappname": "Moodle Desktop",
+    "appname": "EDVON eLearning",
+    "desktopappname": "EDVON eLearning Desktop",
     "versioncode": 3930,
     "versionname": "3.9.3",
     "cache_update_frequency_usually": 420000,
